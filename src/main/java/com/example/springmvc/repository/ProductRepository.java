@@ -12,9 +12,9 @@ public class ProductRepository {
         add(Product.builder().id(1).title("title1").description("description1")
                 .price(100).imageUrl("image1").build());
         add(Product.builder().id(2).title("title2").description("description2")
-                .price(100).imageUrl("image2").build());
+                .price(200).imageUrl("image2").build());
         add(Product.builder().id(3).title("title3").description("description3")
-                .price(100).imageUrl("image3").build());
+                .price(300).imageUrl("image3").build());
     }};
     public List<Product> getAllProduct()
     {

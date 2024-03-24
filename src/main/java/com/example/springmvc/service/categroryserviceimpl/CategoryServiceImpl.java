@@ -1,9 +1,10 @@
-package com.example.springmvc.service;
+package com.example.springmvc.service.categroryserviceimpl;
 
 import com.example.springmvc.dto.CategoryRequest;
 import com.example.springmvc.dto.CategoryResponse;
 import com.example.springmvc.model.Category;
 import com.example.springmvc.repository.CategoryRepository;
+import com.example.springmvc.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.converter.HttpMessageConversionException;
 import org.springframework.stereotype.Service;

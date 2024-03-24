@@ -1,9 +1,10 @@
-package com.example.springmvc.service;
+package com.example.springmvc.service.productserviceimpl;
 
 import com.example.springmvc.dto.ProductRequest;
 import com.example.springmvc.dto.ProductResponse;
 import com.example.springmvc.model.Product;
 import com.example.springmvc.repository.ProductRepository;
+import com.example.springmvc.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

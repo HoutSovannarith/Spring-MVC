@@ -15,8 +15,8 @@ public class CategoryRepository {
                 build());
         add(Category.builder()
                 .id(2)
-                .description("description2")
                 .title("Category2")
+                .description("description2")
                 .build());
     }};
     public List<Category> getAllCategory()

@@ -23,7 +23,7 @@ public class ProductRestController {
         return response;
     }
 
-    @GetMapping("/getAll")
+    @GetMapping("/get-all")
     public Map<String, Object> getAllProduct(@RequestParam(defaultValue = "") String name) {
         return response(productService.productResponeList(name),"success", HttpStatus.OK.value());
     }

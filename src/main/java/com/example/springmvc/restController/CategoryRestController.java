@@ -22,7 +22,7 @@ public class CategoryRestController {
         response.put("status", status);
         return response;
     }
-    @GetMapping("/getAll")
+    @GetMapping("/get-all")
     public Map<String,Object> getAllCategory(@RequestParam (defaultValue = "") String name){
         return response(categoryService.getAllCategory(name),"Successfully",HttpStatus.OK.value());
     }
